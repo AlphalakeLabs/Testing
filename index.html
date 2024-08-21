@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="jYVCntj7-0JDeq_qrWMUZPdiAcXX_WLfIyFnq2BtAjY" />
+    <meta name="google-adsense-account" content="ca-pub-5332014025153879">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jot Page - A Simple Note-Taking App</title>
+    <meta name="description" content="Jot Page is a simple and user-friendly note-taking app that allows you to easily write, manage, and download your notes. Perfect for quick note-taking on the go.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="sidebar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <ul class="list-unstyled components">
+                <li><a href="#" id="clearButton"><i class="fas fa-eraser"></i> Clear Note</a></li>
+                <li><a href="#" id="printButton"><i class="fas fa-print"></i> Print Note</a></li>
+                <li><a href="#" id="downloadButton"><i class="fas fa-file-pdf"></i> Download as PDF</a></li>
+                <li><a href="#" id="deleteButton"><i class="fas fa-trash-alt"></i> Delete Note</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <a href="#" id="theme-toggle"><i class="fas fa-moon"></i></a>
+            </div>
+        </nav>
+        <div class="content">
+            <textarea id="note" placeholder="Write your notes here..."></textarea>
+        </div>
+        <div class="sidebar-right">
+            <ul class="social-icons">
+                <li><a href="#" id="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#" id="reddit"><i class="fab fa-reddit"></i></a></li>
+                <li><a href="#" id="copy"><i class="fas fa-copy"></i></a></li>
+                <li><a href="#" id="messenger"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li><a href="#" id="email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#" id="sms"><i class="fas fa-sms"></i></a></li>
+                <li><a href="#" id="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" id="telegram"><i class="fab fa-telegram"></i></a></li>
+            </ul>
+        </div>
+        <div class="mobile-buttons">
+            <a href="#" id="clearButtonMobile"><i class="fas fa-eraser"></i></a>
+            <a href="#" id="printButtonMobile"><i class="fas fa-print"></i></a>
+            <a href="#" id="downloadButtonMobile"><i class="fas fa-file-pdf"></i></a>
+            <a href="#" id="deleteButtonMobile"><i class="fas fa-trash-alt"></i></a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
